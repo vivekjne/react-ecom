@@ -1,0 +1,66 @@
+.header-container{
+    display: flex;
+    flex:1;
+    align-items: center;
+    background: #8e44ad;
+    padding: 0px 40px;
+}
+
+.brand h2{
+    color: #fff;
+}
+
+.navbar-header{
+    flex:1
+}
+
+.navbar-list{
+    display: flex;
+    list-style: none;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+.navbar-list__link{
+    color: #fff;
+    text-decoration: none;
+    letter-spacing: 1.5px;
+}
+
+.signup{
+    background-color: #e74c3c;
+    padding: 10px 15px;
+
+    text-transform: uppercase;
+    font-weight: 700;
+    transition: .2s;
+   
+}
+
+.signup:hover{
+    background-color: #fff;
+   
+}
+
+.signup:hover .navbar-list__link{
+    color:#e74c3c
+}
+
+.login{
+    background-color: #16a085;
+    padding: 10px 15px;
+    text-transform: uppercase;
+    font-weight: 700;
+    position: relative;
+}
+
+
+.login:hover{
+    background-color: #fff;
+   
+}
+
+.login:hover .navbar-list__link{
+    color:#16a085
+}
